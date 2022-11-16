@@ -1,0 +1,80 @@
+@media screen and (max-width:600px) {
+
+    header{
+        /* display: flex; */
+    }
+
+    .nav-mobile{
+        display: flex;
+    }
+    
+
+    .firstsection{
+        height: 600px;
+        display: none;
+    }
+
+    .firstsection-leftdiv{
+        width:100%;
+        flex-wrap: wrap;
+        /* display: none; */
+
+    }
+    .firstsection-rightdiv{
+        width:100%;
+    }
+
+    /* second section start here  */
+    .secondsection-leftdiv{
+        width: 100%;
+    }
+    .secondsection-leftdiv-text-holder{
+        width:100%;
+        padding: 90px 70px;
+        height: 30%;
+    }
+
+    .secondsection-leftdiv-text-holder h1{
+        font-size: 35px;
+        text-align: center;
+        
+    }
+
+    .secondsection-leftdiv-text-holder p{
+        font-size: 15px;
+        font-weight: bolder;
+        padding:0 27px;
+    }
+    .secondsection-rightdiv{
+        width:100%;
+    }
+    .services-item{
+        min-width: 100%;
+    }
+    /* second section ends here  */
+
+    /* Third section ends here  */
+    .thirdsection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .thirdsection-leftdiv{
+       display: none;
+    }
+    .thirdsection-rightdiv{
+        
+    }
+    .input-holder {
+       
+    }
+    .input-holder input{
+        margin-bottom: 20px;
+    }
+    .input-holder button{
+        width:100%;
+    }
+    /* Third section ends here  */
+    
+}

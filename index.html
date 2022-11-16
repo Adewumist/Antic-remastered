@@ -5,23 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dx-Antic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="defaults.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
+    <div class="backdrop" onclick="dosomething()"></div>
+
+    <!-- mobile section starts here  -->
+
+   <nav class="nav-mobile">
+    <div class="headersection-nav-mobile">
+        <div class="logo-icon">
+            <h2>antic</h2>
+        </div>
+        <div class="hamburger" onclick="dosomething()">
+            <div class="menu"></div>
+        </div>
+
+        <div class="mobile-links-holder">
+            <ul>
+                <li><a href="" class="mobile-active-link"> Products</a></li>
+                <li><a href=""> Rooms</a></li>
+                <li><a href=""> Services</a></li>
+                <li><a href=""> Inspirations</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="body-icon">
+        <p class="mobile-heading-1">HOME DESIGN</p>
+        <h2>Elegance for <br> Interiors & <br> Exteriors</h2>
+        <p class="mobile-headind-2">We provide everyone with modern, <br> 
+            trendy, quality furniture</p>
+            <button><i class="fa-solid fa-chevron-down"></i></button>
+
+    </div>
+
+
+   </nav>
+    <!-- mobile section ends here  -->
+
+    <!-- first section starts here  -->
     <div class="firstsection">
         <div class="firstsection-leftdiv">
-            <h3>antic</h3>
-            <h6>HOME DESIGN</h6>
-            <h2>Elegance for <br>
+            <h2 class="heading">antic</h2> 
+            <div class="firstsection-links-holder">
+                <ul>
+                    <li><a href=""> Products</a></li>
+                    <li><a href=""> Rooms</a></li>
+                    <li><a href=""> Services</a></li>
+                    <li><a href=""> Inspirations</a></li>
+                </ul>
+            </div>
+            <h6 class="heading-1">HOME DESIGN</h6>
+            <h1 class="heading-2">Elegance for <br>
                 Interiors & <br> 
-                Exteriors</h2>
+                Exteriors</h1>
                 <p>We provide everyone with modern, <br> 
                     trendy, quality furniture</p>
+                    <button><i class="fa-solid fa-chevron-down"></i></button>
+
+                    
         </div>
         <div class="firstsection-rightdiv"></div>
     </div>
-    
+
+
+    <!-- first section ends here  -->
+
+    <!-- second section starts here  -->
+
+    <section class="secondsection-leftdiv">
+        <div class="secondsection-leftdiv-container">
+            <div class="secondsection-leftdiv-text-holder">
+                <h1>We stay by your <br> side to design <br> your projects</h1>
+                <p>Find out more <span><i class="fa-solid fa-chevron-right"></i></span></p>
+            </div>
+
+            <div class="secondsection-rightdiv">
+                 <div class="services-container">
+                    <div class="services-item">
+                        <span class="services-item-title">Our Advices</span>
+                        <p>What if you took advantage of this rather special period to rethink your interior? You spend more time at home so you might as well feel good there.</p>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-item-title">Click and Collect</span>
+                        <p>Adapted and contactless. Free from € 200 of purchases in stores offering the service.</p>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-item-title">Conception Service</span>
+                        <p>Personalized service with an expert advisor for your interior and exterior decoration or layout projects. </p>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-item-title">Installation Service</span>
+                        <p>Our furniture packaged in flat packs are designed for easy assembly. But you can call on our partner.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+    </section>
+     <!-- second section ends here  -->
+
+
+     <!-- Third section starts here  -->
+     <section class="thirdsection">
+        <div class="thirdsection-leftdiv">
+            <h2>Be aware of the latest trends</h2>
+            <p>Stay informed of new trends, but also of our various offers.</p>
+            <button class="btn btn-white">Learn more <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <section class="thirdsection-rightdiv">
+            <div class="input-holder">
+            <input type="text" placeholder="email@address.com">
+            <button class="btn ">Subscribe</button>
+        </div>
+
+        </section>
+     </section>
+
+     <!-- Third section ends here  -->
+
+    <script src="main.js"></script>
 </body>
 </html>
