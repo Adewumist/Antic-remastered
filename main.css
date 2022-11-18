@@ -178,7 +178,7 @@ body{
 
 .body-icon h2{
     margin-bottom: 25px;
-    font-size: 37px;
+    font-size:33px;
 }
 
 .mobile-headind-2{
@@ -357,6 +357,7 @@ body{
 
 .services-item p{
     color:#706458;
+    font-size: 15px;
 }
 
 .services-item-title{
